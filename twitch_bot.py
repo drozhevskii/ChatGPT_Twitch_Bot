@@ -3,12 +3,12 @@ import os
 
 from lilly_bot import lilly, read_chat
 
-oauth_token = 'cz2vt1mcdmayc102p2astx05aag6d7'
-client_id = 'gp762nuuoqcoxypju8c569th9wz7q5'
+oauth_token = 'TWITCH APO KEY'
+client_id = 'TWITCH CLIENT ID'
 
 
 bot_account = 'Lilly'
-channel_name = 'permatoxxic'
+channel_name = 'CHANNEL NAME'
 
 class Bot(commands.Bot):
 
