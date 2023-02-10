@@ -3,6 +3,8 @@
 ### Intro
 This is my personal project to build an integrated AI chat bot into twitch. Right now, it is based off ChatGPT. However, in the future I plan to implement my own chatbot. 
 
+![Alt text](http://full/path/to/img.jpg "Optional title")
+
 ### Files
 The lilly_bot file contains the code to connect to ChatGPT api and send requests. This file is responsible for communicating between Twitch chat and ChatGPT. The initial prompt variable in the code send the initial prompt that will set up some kind of personality for your bot. It has a voice function that uses internal Windows voice to give voice to your bot's responses in twitch chat.
 
