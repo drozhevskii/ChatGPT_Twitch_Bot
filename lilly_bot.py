@@ -7,7 +7,7 @@ import playsound
 from twitchio.ext import commands
 
 oauth_token = "YOUR TWITCH TOKEN"
-client_id = 'YOUR TWITCH CLIENT ID"
+client_id = "YOUR TWITCH CLIENT ID"
 bot_account = 'Lilly'
 channel_name = 'YOUR CHANNEL NAME'
 
