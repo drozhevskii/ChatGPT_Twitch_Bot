@@ -8,7 +8,7 @@ This is my personal project to build a simple integrated AI chatbot into Twitch.
 ### Description
 The chatGPT_bot file contains the code to connect to ChatGPT API and send requests. This file is responsible for communicating between Twitch chat and ChatGPT. The initial prompt variable in the code sends the initial prompt that will set up some kind of personality for your bot. It has a voice function that uses internal Windows voice to give voice to your bot's responses in Twitch chat.
 
-The twitch_bot file contains code to connect to your channel Twitch chat and read the chat. It uses functions from chatGPT_bot to communicate with ChatGPT by sending all the incoming messages to ChatGPT. You have to turn this python file into .exe format and run it. After running it, it will connect to your Twitch chat and will start responding to every message in Twitch chat.
+The twitch_bot file contains code to connect to your channel Twitch chat and read the chat. It uses functions from chatGPT_bot to communicate with ChatGPT by sending it all the incoming messages. You have to turn this python file into .exe format and run it. After running it, it will connect to your Twitch chat and will start responding to every message in the chat, while you are able to monitor the bot through the console (like in the [screenshot](twitch_bot_active.png) above).
 
 [This GitHub page](https://github.com/TwitchIO/TwitchIO) explains in more detail how to get your Twitch API keys.
 
@@ -16,10 +16,11 @@ You can find your OpenAI key on the official [OpenAI website](https://openai.com
 
 
 
-### ChatGPT Bot: Initialization and Functions
+#### ChatGPT Bot: Initialization and Functions
+
 First, we create a script with all the functions our bot will use to make API calls:
 
-### Required libraries:
+Required libraries:
 ```
 import os # for importing env vars for the bot to use
 import openai
@@ -108,8 +109,8 @@ def chatGPT(message):
 ```
 
 
+#### Twitch Bot: Uses created above functions and connect ChatGPT Bot to Twitch.
 
-### Twitch Bot: Uses created above functions and connect ChatGPT Bot to Twitch.
 Here, we implement the functions above and connect the bot to the Twitch account you want it to appear on.
 
 Get the necessary functions from the previous script (above):
