@@ -15,6 +15,7 @@ The twitch_bot file contains code to connect to your channel Twitch chat and rea
 You can find your OpenAI key on the official [OpenAI website](https://openai.com/api/) after creating an account.
 
 
+
 ### ChatGPT Bot: Initialization and Functions
 First, we create a script with all the functions our bot will use to make API calls:
 
