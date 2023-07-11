@@ -8,17 +8,16 @@ from twitchio.ext import commands
 
 oauth_token = "YOUR TWITCH TOKEN"
 client_id = "YOUR TWITCH CLIENT ID"
-bot_account = 'Lilly'
+bot_account = 'YOUR BOT NAME'
 channel_name = 'YOUR CHANNEL NAME'
 
 OPENAI_API_KEY = "YOUR OPEN AI key"
-#openai.api_key = os.environ['OPENAI_API_KEY']
 openai.api_key = OPENAI_API_KEY
 
-start_sequence = "\nLilly"
+start_sequence = "\nChatGPT"
 restart_sequence = "\nChat: "
 
-prompt = "YOUR INITAL PROMPT FOR BOT"
+prompt = "YOUR INITAL PROMPT FOR BOT (CHANNEL DESCRIPTION AND/OR PERSONALITY INFO"
 chat_log = prompt
 
 def ask(question, chat_log=None):
@@ -55,7 +54,7 @@ def read_chat(text):
     speak(str(text))
 
 
-def lilly(message):
+def chatGPT(message):
     incoming_msg = message
     answer = ask(incoming_msg, chat_log)
     append_interaction_to_chat_log(incoming_msg, answer, chat_log)
@@ -63,4 +62,3 @@ def lilly(message):
     print(str(answer))
     speak(str(answer))
 
-#lilly()
