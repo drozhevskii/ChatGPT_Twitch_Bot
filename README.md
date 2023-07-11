@@ -16,8 +16,7 @@ You can find your OpenAI key on the official [OpenAI website](https://openai.com
 
 
 
-#### ChatGPT Bot: Initialization and Functions
-
+###ChatGPT Bot: Initialization and Functions.
 First, we create a script with all the functions our bot will use to make API calls:
 
 Required libraries:
@@ -109,8 +108,7 @@ def chatGPT(message):
 ```
 
 
-#### Twitch Bot: Uses created above functions and connect ChatGPT Bot to Twitch.
-
+### Twitch Bot: Uses created above functions and connect ChatGPT Bot to Twitch.
 Here, we implement the functions above and connect the bot to the Twitch account you want it to appear on.
 
 Get the necessary functions from the previous script (above):
