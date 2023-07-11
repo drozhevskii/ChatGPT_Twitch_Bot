@@ -172,7 +172,9 @@ bot = Bot()
 bot.run()
 ```
 
-In order to turn this program into an executable, use the Pyinstaller library.
+### Activate the bot:
+
+You need to write/download both chatGPT_bot and twitch_bot and then turn twitch_bot into an executable, using the Pyinstaller library.
 Pyinstaller allows you to quickly convert a Python file to an executable file from your terminal.
 
 This code is a command line instruction that uses the PyInstaller library to create a standalone executable file for the Python script "validation.py".
