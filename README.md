@@ -42,9 +42,9 @@ prompt = "Your channel description and/or any other personality traits you want 
 chat_log = prompt
 ```
 
-Create the start and end sequences to keep a chat record.
+Create the start and end sequences to keep a chat record. 
 ```
-start_sequence = "\nChatGPT"
+start_sequence = "\nChatGPT:"
 restart_sequence = "\nChat: "
 ```
 
